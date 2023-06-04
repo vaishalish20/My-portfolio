@@ -1,0 +1,110 @@
+
+/* contact section */
+#contact{
+  height: 100vh;
+  width: 50%;
+  margin:auto;
+  background-color: white;
+  padding:4rem;
+  color:white;
+
+  left:10rem;
+}
+.contact-head{
+  font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    grid-column: 1 / -1; /* Make the heading span across all columns */
+    width: 100%; /* Set the width to 100% */
+    color: #009FBD;
+}
+.form-container {
+  width:60%;
+  margin: 2rem auto;
+  /* border: 1px solid #009FBD; */
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: #009FBD;
+  
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 5px;
+  border: 1px solid #009FBD;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  /* background-color: #4CAF50; */
+  background-color: white;
+  color: #009FBD;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.submit-btn:hover {
+  /* background-color: #45a049; */
+ color:black;
+ font-weight: bold;
+ 
+  
+}
+/* footer-section */
+.footer{
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  color: black;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  border-top:5px solid #009FBD;
+}
+.footer i{
+color:#009FBD;
+
+}
+.footer i:hover{
+color:white;
+font-weight: bolder;
+}
+.footer p{
+  font-family: 'Lobster', cursive;
+  font-size: 1rem;
+  color: #fff;
+}
+.footer p span{
+  text-decoration: underline;
+  color:#009FBD;
+}
+.footer p span:hover{
+  text-decoration: underline;
+  color:white;
+  font-weight: bold;
+}
+.footer p:hover{
+  text-decoration: underline;
+  color:#009FBD;
+  
+}
