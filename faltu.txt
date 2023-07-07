@@ -1,0 +1,333 @@
+/* about section */
+#about{
+  width: 100%;
+  height: 100vh;
+  /* align-items: center;
+  text-align: center; */
+  color:#009FBD;
+  /* margin: 6rem auto 0;
+  
+  padding:3rem; */
+  margin-top:5rem;
+}
+.about-container{
+
+}
+#about  .my-img{
+  /* border: 0.4rem solid #009FBD; */
+  /* border-radius: 50%; */
+  float: left;
+  width:12rem;
+  height: 12rem;
+  margin-left:5rem;
+  /* margin:3rem; */
+  /* margin-bottom: 2rem; */
+}
+#about h2.about-head{
+font-size: 2.5rem;
+margin-bottom:3rem;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+#about p{
+  font-size: 1rem;
+  text-align: center;
+  text-align: justify;
+  margin:auto;
+  font-family: 'Merriweather', serif;
+  /* font-weight: bold; */
+  width:50%;
+}
+<div id="portfolio"> 
+    <h2 class="port-head">Portfolio</h2>
+
+    <section id="projects">
+        <div id="projects-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/digital-clock.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Digital Clock</h5>
+                      <p class="card-text">A digital clock created with HTML, CSS, and JavaScript is a dynamic time display that shows the current time in a digital format, providing an accurate and visually appealing representation.</p>
+                      <a href="https://vaishalish20.github.io/Digital_clock/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/calculator.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Calculator</h5>
+                      <p class="card-text">A calculator created using JavaScript, CSS, and HTML is an interactive user interface that enables users to perform mathematical calculations.</p>
+                      <a href="https://vaishalish20.github.io/calculator/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/find-coord.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">FindCoordinates</h5>
+                      <p class="card-text">It is a web application that allows users to find and display the coordinates of any location on a map. It utilizes Leaflet.js, a powerful JavaScript library</p>
+                      <a href="https://vaishalish20.github.io/findcoordinates/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/drum-kit.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Drum Kit</h5>
+                      <p class="card-text">A drum kit built with HTML, CSS, and JavaScript is an interactive web application that allows users to play virtual drums by clicking or pressing keys corresponding to different drum elements.</p>
+                      <a href="https://vaishalish20.github.io/Drum-Kit/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/find-temp.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Temple-project</h5>
+                      <p class="card-text">This is project which contain some famous temples in India and display their location on map.This uses Leaflet.js, a powerful JavaScript library to display interactive maps</p>
+                      <a href="https://vaishalish20.github.io/temple-project/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/dice-game.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Dice Game</h5>
+                      <p class="card-text">A dice game built with HTML, CSS, and JavaScript is a game that determines the winner between two players upon loading the page. It involves rolling virtual dice for each player.</p>
+                      <a href="https://vaishalish20.github.io/Dice-Game/" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+              
+              <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                    <img src="images/weather.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Weather App</h5>
+                      <p class="card-text">A JavaScript-based weather application that fetches and displays real-time weather data using an API, providing users with up-to-date information for a specific location.</p>
+                      <a href="https://vsh20.onrender.com" target="_blank">have a look</a>
+                      <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+                
+                <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                  <div class="row">
+                    <div class="col-md-4 d-flex align-items-center justify-content-center"> 
+                      <img src="images/speechtext.png" class="img img-fluid" style="height: 140px; width: 130px;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Speech to Text Converter</h5>
+                        <p class="card-text">A speech-to-text converter built using React and Vite is a project that enables users to convert spoken words into text format, utilizing speech recognition capabilities.</p>
+                        <a href="https://vaishalish20.github.io/react-project/" target="_blank">have a look</a>
+                        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+          <a class="carousel-control-prev" type="button" data-bs-target="#projects-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" type="button" data-bs-target="#projects-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+ 
+</div>
+
+/* portfolio or projects section */
+#portfolio{
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  padding:3rem;
+}
+.box{
+  margin-top:3rem;
+  
+ 
+}
+#portfolio p{
+  font-family: 'Merriweather', serif;
+} 
+#portfolio .port-head{
+  color: #009FBD;
+}
+#portfolio .box ul {
+  text-align: center;
+  
+}
+#portfolio .box a{
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-family: 'Roboto', sans-serif; 
+  color:#009FBD;
+}
+#projects .card-body a{
+  color:white;
+}
+
+#projects .card-body a:hover{
+  color:black;
+}
+#projects{
+
+  text-align: center;
+  background-color:white;
+  color:black;
+}
+h5{
+  font-family: 'Montserrat';
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height:1.5;
+}
+#projects .row img{
+height: 20%; 
+width:  10%;
+margin:1em;
+border: 1.5px solid #f0f0f0;
+}
+.carousel-item{
+  padding:7% 15%;
+ 
+}
+p{
+  text-align: justify;
+}
+.card{
+background-color: #009FBD;
+color:white;
+font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+  background-color:#009FBD;
+}
+
+.port-head{
+font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  grid-column: 1 / -1; /* Make the heading span across all columns */
+  width: 100%; /* Set the width to 100% */
+}
+
+/* skills section */
+#skills{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  color:#009FBD;
+  font-family: 'Poppins', sans-serif;
+  padding:3rem;
+}
+#skills .skills-head{
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  grid-column: 1 / -1; /* Make the heading span across all columns */
+  width: 100%; /* Set the width to 100% */
+  margin:auto 0;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number to specify the desired number of columns 
+  grid-gap: 1em; /* Adjust the gap between buttons as needed */
+}
+
+.grid-button {
+  padding: 0.2rem 0.5rem;
+  background-color: #ffff;
+  color: #009FBD;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border:2px solid #009FBD;
+  transition: 1s;
+ 
+}
+.grid-button:hover{
+  /* transform: scale(0.5,0.5); */
+  background-color: #009FBD;
+  color:#fff;
+}
