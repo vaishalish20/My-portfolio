@@ -1,0 +1,96 @@
+@media (max-width:600px) {
+    #navbar{
+        height: 5rem;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 2rem;
+    }
+    .hero-section{
+        width:60rem;
+        height: 90rem;
+    }
+    .hero-section h1{
+        font-size: 22vh;
+    }
+    .hero-section p{
+        font-size: 6vh;
+        font-weight: 200;
+        color: #000;
+        font-family:Tahoma, sans-serif;
+        padding-top:2rem;
+    }
+    #about{
+        height:80rem;
+        width:40rem;
+        
+    }
+    #about h2{
+        font-size: 4rem;
+        margin-bottom:4rem;
+        margin-left:8rem;
+    }
+    #about img{
+        display: none;
+    }
+    .about-container{
+        width:100%;
+        margin:0 auto;
+        
+    }
+    .description{
+        width:40rem;
+        font-size: 1.5rem;
+        margin-left:7rem;
+    }
+    #projects{
+        height:90rem;
+        width:50rem;
+        
+    }
+    #projects h2{
+        font-size: 4rem;
+        margin-bottom:4rem;
+        margin-left:8rem;
+        font-weight: 400;
+    }
+    .card{
+        height: 15rem;
+        margin-left: 4rem;
+    }
+    #skills{
+        height:90rem;
+        width:50rem;
+    }
+    #skills .skills-head{
+        font-size: 4rem;
+        margin-bottom:4rem;
+        margin-left:8rem;
+        font-weight: 400;
+    }
+    .skill-card {
+        width: 80%;
+        height: 17rem;
+        margin: 1rem auto;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #contact {
+        height: 30rem;
+        width:60rem;
+        font-family: 'Poppins', sans-serif;
+        display:flex;
+        background-color: #E6D8EB;
+      }
+      .right-container{
+        height: 30rem;
+       
+      }
+      .footer{
+        width:60rem;
+        height: 10rem;
+      }
+
+}
+ 
+  
